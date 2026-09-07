@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+.pycharm/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local configuration / secrets
+models.config
+.env
+.env.*
+!.env.example
+
+# Training dataset - do NOT upload
+PlantVillage/
+
+# TensorFlow SavedModel generated directories
+saved_models/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
